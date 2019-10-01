@@ -2,7 +2,7 @@
 use WebService::Lookup;
 #####################################################################
 # Make new object and provide  account credentials
-my $phone = Lookup.new(
+my $phone = WebService::Lookup.new(
         Sid => '',
         Token => '',
         );
